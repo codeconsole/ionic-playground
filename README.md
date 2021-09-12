@@ -47,6 +47,20 @@ Unable to infer default Android SDK settings. This is fine, just run npx cap ope
 ```
 
 Also worth mentioning, Android < 24 does not work on either platform. 
+https://github.com/ionic-team/capacitor/issues/5043
+```
+sdkmanager 'system-images;android-23;google_apis;x86_64'
+avdmanager create avd --name Pixel_2_API_23 --package 'system-images;android-23;google_apis;x86_64' --device 'pixel_2'
+
+cd angular
+npx cap run android --target=Pixel_2_API_23 #notworking
+
+cd react
+npx cap run android --target=Pixel_2_API_23 #notworking
+
+cd vue 
+npx cap run android --target=Pixel_2_API_23 #notworking
+```
 
 This is unfortunate because as of September 2021, Android (5.0-6.0) currently represents 8% of the Android market.
 https://www.appbrain.com/stats/top-android-sdk-versions
