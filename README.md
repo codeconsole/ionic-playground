@@ -12,17 +12,17 @@ ionic start vue blank --capacitor --type=vue
 cd angular
 npm install @capacitor/android && npx cap add android
 npm run build
-npx cap run android --target=Pixel_2_API_24 #working
+npx cap run android --target=Pixel_2_API_24
 
 cd react
 npm install @capacitor/android && npx cap add android
 npm run build
-npx cap run android --target=Pixel_2_API_24 #working
+npx cap run android --target=Pixel_2_API_24
 
 cd vue 
 npm install @capacitor/android && npx cap add android
 npm run build
-npx cap run android --target=Pixel_2_API_24 #working
+npx cap run android --target=Pixel_2_API_24
 ```
 
 Worth mentioning (seems not to affect anyting), there is a FAILURE when adding the android platform.
