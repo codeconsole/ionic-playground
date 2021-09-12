@@ -53,13 +53,13 @@ sdkmanager 'system-images;android-23;google_apis;x86_64'
 avdmanager create avd --name Pixel_2_API_23 --package 'system-images;android-23;google_apis;x86_64' --device 'pixel_2'
 
 cd angular
-npx cap run android --target=Pixel_2_API_23 #notworking
+npx cap run android --target=Pixel_2_API_23
 
 cd react
-npx cap run android --target=Pixel_2_API_23 #notworking
+npx cap run android --target=Pixel_2_API_23
 
 cd vue 
-npx cap run android --target=Pixel_2_API_23 #notworking
+npx cap run android --target=Pixel_2_API_23
 ```
 
 This is unfortunate because as of September 2021, Android (5.0-6.0) currently represents 8% of the Android market.
