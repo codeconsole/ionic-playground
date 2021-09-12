@@ -27,7 +27,7 @@ npx cap run android --target=Pixel_2_API_24 #working
 
 Worth mentioning (seems not to affect anyting), there is a FAILURE when adding the android platform.
 
-````
+```
 npx cap add android
 ✔ Adding native android project in android in 34.12ms
 ⠹ add Error running gradle sync 
