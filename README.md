@@ -25,7 +25,7 @@ npm run build
 npx cap run android --target=Pixel_2_API_24
 ```
 
-Worth mentioning (seems not to affect anyting), there is a FAILURE when adding the android platform.
+Worth mentioning (seems not to affect anything), there is a FAILURE when adding the android platform.
 
 ```
 npx cap add android
